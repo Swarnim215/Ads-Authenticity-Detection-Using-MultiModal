@@ -91,19 +91,16 @@ The core system categorizes advertisements into two primary operational statuses
 
 #### 📈 System Performance Report
 ```text
+===================================
 🏆 FINAL SYSTEM RESULTS (MULTI-MODAL) 🏆
 ===================================
-Overall Accuracy: 73.68%
+Overall Accuracy: 77.44%
 
 Classification Report:
               precision    recall  f1-score   support
 
-        GOOD       0.72      0.87      0.79        75
-  MISLEADING       0.77      0.57      0.65        58
-
-    accuracy                           0.74       133
-   macro avg       0.74      0.72      0.72       133
-weighted avg       0.74      0.74      0.73       133
+        GOOD       0.75      0.70      0.72        56
+  MISLEADING       0.79      0.83      0.81        77
 ```
 
 ## Future Improvements
