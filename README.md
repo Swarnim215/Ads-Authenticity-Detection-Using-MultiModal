@@ -102,6 +102,10 @@ Classification Report:
         GOOD       0.75      0.70      0.72        56
   MISLEADING       0.79      0.83      0.81        77
 ```
+## 📱 Gradio Interface Walkthrough
+Below is the live interactive interface where users can pass a raw web advertisement image or URL to get real-time authenticity classification and see the parallel system metrics:
+
+![Gradio Web UI UI Preview](01_Authentic_Example.png)
 
 ## Future Improvements
 - Deep learning integration
