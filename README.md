@@ -46,13 +46,13 @@ A machine learning project that analyzes advertisements using multimodal data (t
 To determine an advertisement's authenticity, the system processes a raw ad image through four parallel feature extraction branches:
 
 ```text
-                  ┌──► OCR (EasyOCR + OpenCV) ──► Extracted Ad Text Keywords
+┌──► OCR (EasyOCR + OpenCV) ──────► Extracted Ad Text Keywords
                   │
-                  ├──► Object Detection (YOLOv8) ──► Detected Physical Objects
+                  ├──► Object Detection (YOLOv8) ───► Detected Physical Objects
 Raw Ad Image ────┼
-                  ├──► Image Captioning (BLIP-2) ──► Natural Langugage Description of Ads overall context
+                  ├──► Image Captioning (BLIP-2) ───► Semantic Image Caption
                   │
-                  └──► Visual Embedding (CLIP) ────► Visual Semantics Image Vector
+                  └──► Visual Embedding (CLIP) ─────► Dense Visual Vector
 ```
 
 
