@@ -1,14 +1,14 @@
-## Core Web Scraping & Data Handling
+# Core Web Scraping & Data Handling
 requests
 beautifulsoup4
 pandas
 gspread
 google-auth
 
-## Computer Vision & Text Extraction (OCR)
+# Computer Vision & Text Extraction (OCR)
 easyocr
 opencv-python-headless
-ultralytics
+ultralytics>=8.0.0
 
 # Natural Language Processing & Text Matching
 rapidfuzz
@@ -17,11 +17,11 @@ textblob
 # Deep Learning & Multi-Modal Models (CLIP / BLIP)
 torch
 torchvision
-transformers
+transformers>=4.30.0
 accelerate
 open_clip_torch
 ftfy
 pillow
 
 # ---- Web Interface ----
-gradio
+gradio>=4.0.0
