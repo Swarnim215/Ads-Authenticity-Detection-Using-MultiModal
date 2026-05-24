@@ -55,11 +55,6 @@ Raw Ad Image ────┼
                   └──► Visual Embedding (CLIP) ────► Visual Semantics Image Vector
 ```
 
-## Future Improvements
-- Deep learning integration
-- Real-time ad verification
-- Web application deployment
-- Enhanced multimodal fusion techniques
 
 ## Key Insights & System Innovations
 
@@ -84,6 +79,38 @@ Algorithmic classification scores can sometimes be artificially inflated by back
 ### 5. Automated E-Commerce Scraping & Live Web Integration
 Beyond static dataset benchmarking via Google Sheets, the engine integrates an autonomous web scraping crawler. It uses `BeautifulSoup` to parse live URLs, dynamically resolve relative assets, filter out structural UI components (like tiny icons and placeholders), and batch-evaluate live landing page images via the `Gradio` UI interface.
 
+## 📊 Model Evaluation & Results
+
+The system implements a rigorous, automated verification pipeline that cross-checks multimodal image features against ground-truth labels provided via the Google Sheets API. Performance is evaluated using standard classification metrics generated via `scikit-learn`.
+
+### 1. Classification Metrics & Performance
+
+The core system categorizes advertisements into two primary operational statuses:
+* **`GOOD` (Authentic):** The extracted visual objects, contextual text (OCR), and deep semantic representations firmly match the advertiser's claimed keywords.
+* **`MISLEADING` (Suspicious/Mismatch):** Significant discrepancies exist between the image contents and the stated target keywords, or the system triggered a strict guardrail override due to an insufficient keyword match ratio in the captions.
+
+#### 📈 System Performance Report
+```text
+🏆 FINAL SYSTEM RESULTS (MULTI-MODAL) 🏆
+===================================
+Overall Accuracy: 73.68%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        GOOD       0.72      0.87      0.79        75
+  MISLEADING       0.77      0.57      0.65        58
+
+    accuracy                           0.74       133
+   macro avg       0.74      0.72      0.72       133
+weighted avg       0.74      0.74      0.73       133
+```
+
+## Future Improvements
+- Deep learning integration
+- Real-time ad verification
+- Web application deployment
+- Enhanced multimodal fusion techniques
 
 ## Repository Structure
 - ads-auth-detection-main.ipynb
