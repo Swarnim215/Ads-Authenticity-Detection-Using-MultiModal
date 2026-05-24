@@ -50,9 +50,9 @@ To determine an advertisement's authenticity, the system processes a raw ad imag
                   │
                   ├──► Object Detection (YOLOv8) ──► Detected Physical Objects
 Raw Ad Image ────┼
-                  ├──► Image Captioning (BLIP-2) ──► Descriptive Text Caption
+                  ├──► Image Captioning (BLIP-2) ──► Natural Langugage Description of Ads overall context
                   │
-                  └──► Visual Embedding (CLIP) ────► Semantic Image Vector
+                  └──► Visual Embedding (CLIP) ────► Visual Semantics Image Vector
 ```
 
 ## Future Improvements
