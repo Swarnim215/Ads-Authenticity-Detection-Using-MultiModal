@@ -53,6 +53,7 @@ Raw Ad Image ────┼
                   ├──► Image Captioning (BLIP-2) ──► Descriptive Text Caption
                   │
                   └──► Visual Embedding (CLIP) ────► Semantic Image Vector
+```
 
 ## Future Improvements
 - Deep learning integration
