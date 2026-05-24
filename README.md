@@ -1,11 +1,11 @@
 # Ads Authenticity Detection Using MultiModal
 
-A machine learning project that analyzes advertisements using multimodal data (text + visual/content-based features of ads) to identify genuine, suspicious and misleading advertisements.
+A machine learning project that analyzes advertisements using multimodal data (text + visual/content-based features of ads) to identify ads image or website URL into 3 major categories 'Authentic', 'Suspicious' and 'Mismatch' advertisements.
 
 ## Features
 - Multimodal advertisement analysis
 - Data preprocessing and feature extraction
-- Authenticity prediction system from self-made dataset of approx. 130 images from various ads on technology items
+- Authenticity prediction system from self-made dataset of 133 images from various ads on technology items
 - Performance evaluation
 
 ## Technologies Used
