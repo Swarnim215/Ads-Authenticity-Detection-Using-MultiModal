@@ -79,7 +79,7 @@ Algorithmic classification scores can sometimes be artificially inflated by back
 ### 5. Automated E-Commerce Scraping & Live Web Integration
 Beyond static dataset benchmarking via Google Sheets, the engine integrates an autonomous web scraping crawler. It uses `BeautifulSoup` to parse live URLs, dynamically resolve relative assets, filter out structural UI components (like tiny icons and placeholders), and batch-evaluate live landing page images via the `Gradio` UI interface.
 
-## 📊 Model Evaluation & Results
+## Model Evaluation & Results
 
 The system implements a rigorous, automated verification pipeline that cross-checks multimodal image features against ground-truth labels provided via the Google Sheets API. Performance is evaluated using standard classification metrics generated via `scikit-learn`.
 
